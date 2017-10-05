@@ -33,6 +33,7 @@
   <option name="JD_KEEP_EMPTY_PARAMETER" value="false" />
   <option name="JD_KEEP_EMPTY_RETURN" value="false" />
   <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
   <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
   <option name="KEEP_LINE_BREAKS" value="false" />
@@ -256,16 +257,6 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
-  <codeStyleSettings language="kotlin">
-    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
-    <option name="CALL_PARAMETERS_WRAP" value="1" />
-    <option name="METHOD_PARAMETERS_WRAP" value="1" />
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
@@ -409,5 +400,15 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
